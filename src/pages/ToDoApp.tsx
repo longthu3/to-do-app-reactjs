@@ -149,7 +149,7 @@ export const ToDoApp = () => {
         </div>
 
         {invalidEmail ? (
-          <div className="flex items-center justify-center h-full">
+          <div className="flex justify-center items-center h-full">
             <p className="text-white text-lg font-semibold">Invalid email</p>
           </div>
         ) : null}

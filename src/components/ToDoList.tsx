@@ -14,7 +14,7 @@ interface Task {
 
 export const ToDoList = ({ listTask }: ToDoListProps) => {
   return (
-    <div className="flex justify-center items-center flex-col gap-3 overflow-y-auto max-h-[500px]">
+    <div className="flex items-center flex-col gap-3 overflow-y-auto h-[500px]">
       {listTask.map((task) => (
         <ToDoComponent key={task._id} task={task} />
       ))}
